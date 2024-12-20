@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #928f8f;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(#145261, #57a8ff) #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #00dab5;
+  text-align: center;
+}
+
+h2 {
+  color: #470a2f;
+  text-align: center;
+}
+h3 {
+  color: #005266;
+  text-align: center;
+}
+.add-product-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.add-product-form input {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.add-product-form button {
+  padding: 5px 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-product-form button:hover {
+  background: #0056b3;
+}
+
+.product-list, .cart {
+  margin: 20px 0;
+}
+
+.product-item, .cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+button {
+  padding: 5px 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
